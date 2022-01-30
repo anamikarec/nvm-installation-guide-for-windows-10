@@ -4,11 +4,11 @@
 ```js
   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 ```
-- Step:2 Run the followwing command in git bash terminal:~
+- Step:2 This will be exported by default in the .bashrc file, if not then run the followwing command in git bash terminal:~
  ```js
     export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
  ```
- - Step:3 Run the followwing command in git bash terminal:~
+ - Step:3 This will be exported by default in the .bashrc file, if not then the followwing command in git bash terminal:~
   ```js
       [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
   ```
