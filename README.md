@@ -1,5 +1,5 @@
 # nvm-installation-guide-for-windows-10
-
+#### ``` Very First and most important step is to create the .bashrc file in the root folder that is ~ :C/user/<user_name> ```
 - Step:1 Download the nvm by running the following command in git bash terminal:~
 ```js
   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
